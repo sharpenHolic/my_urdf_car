@@ -1,0 +1,31 @@
+<robot name="my_car_01">
+  <link name="base_link" />
+  <link name="wheel_1" />
+  <link name="wheel_2" />
+  <link name="wheel_3" />
+  <link name="wheel_4" />
+ 
+ 
+  <joint name="joint_base_wheel1" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_1"/>
+  </joint>
+ 
+ 
+  <joint name="joint_base_wheel2" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_2"/>
+  </joint>
+ 
+ 
+  <joint name="joint_base_wheel3" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_3"/>
+  </joint>
+ 
+ 
+  <joint name="joint_base_wheel4" type="fixed">
+    <parent link="base_link"/>
+    <child link="wheel_4"/>
+  </joint>
+</robot>
